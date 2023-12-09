@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link rel="stylesheet" href="bootstrap513/css/bootstrap.min.css" -->
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap-grid.min.css"> 
+    
+    <style>
+    .col-sm-3{
+      background: #dedede;
+		  color: #fff;
+		  padding: 30px 0 30px 0;
+		  text-align: center;
+		  border: 1px solid #fff;
+     
+    }  
+    .col-sm-6{
+      background: yellowgreen;
+		  color: #fff;
+		  padding: 110px;
+      padding-left: 5px;
+		}
+    #portofolio{
+        padding-top: 100px;
+    }
+    #tim{
+        padding-top: 100px;
+    }
+    #client{
+        padding-top: 100px;
+    }
+    </style>
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <!-- nav class="navbar navbar-expand-lg bg-body-tertiary navbar-primary bg-warning fixed-top" -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-primary bg-warning fixed-top">
+      
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index1.php">Login Sistem Informasi<BR>
+            PT. SEJAHTERA ABADI</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#portofolio">Portofolio</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#tim">Tim Kami</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#client">Client</a>
+              </li>
+              
+
+              
+
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#register">Register</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="row pt-4 gx-4 gy-4">
+    <!-- Portofolio -->
+    <div class="container-fluid pt-5 pb-5 bg-light ">
+        <div class="container text-center">
+            <h2 class="display 3" id="portofolio">Portofolio </h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium autem nisi aspernatur quis. Amet praesentium laborum rat7ione eos nisi sed quaerat, in cumque quas nesciunt tempora perferendis unde placeat similique.</p>
+        </div>
+    </div>
+
+     <!-- Tim Kami -->
+    <div class="container-fluid pt-5 pb-5 bg-light ">
+        <div class="container text-center">
+            <h2 class="display 3" id="tim">Tim Kami </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium autem nisi aspernatur quis. Amet praesentium laborum rat7ione eos nisi sed quaerat, in cumque quas nesciunt tempora perferendis unde placeat similique.</p>
+        </div>
+    </div>
+
+    <!-- client -->
+    <div class="container-fluid client pt-5 pb-5">
+        <div class="container text-center">
+            <h2>Client Kami</h2>
+             <div class="row pt-4 gx-4 gy-4" id="client">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea alias velit voluptates quae natus repellendus modi dolores veniam esse quidem cum tempore sequi, ratione culpa voluptatem dolor earum distinctio nesciunt.</p>
+                </div>
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea alias velit voluptates quae natus repellendus modi dolores veniam esse quidem cum tempore sequi, ratione culpa voluptatem dolor earum distinctio nesciunt.</p>
+                </div>
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea alias velit voluptates quae natus repellendus modi dolores veniam esse quidem cum tempore sequi, ratione culpa voluptatem dolor earum distinctio nesciunt.</p>
+                </div>
+             </div>  
+        </div>
+    </div>
+
+    
+
+      <!-- Register -->
+      <div class="container-fluid pt-5 pb-5 bg-light ">
+        <div class="container text-left">
+            <h2 class="display 3" id="register">Register </h2>
+             <!-- form -->
+
+          <form action="proses_data_mhs.php" method="POST" enctype="multipart/form-data" target="_blank">
+
+            
+
+             <div class="row mb-3">
+               <label for="inputNpp" class="col-sm-2 col-form-label">NPP</label>
+               <div class="col-sm-10">
+                 <input type="text" class="form-control" id="inputNpp" name="inputNpp">
+               </div>
+             </div>
+             <div class="row mb-3">
+               <label for="inputNama" class="col-sm-2 col-form-label">Nama</label>
+               <div class="col-sm-10">
+                 <input type="text" class="form-control" id="inputNama" name="inputNama">
+               </div>
+             </div>
+             <div class="row mb-3">
+               <label for="inputAlamat" class="col-sm-2 col-form-label">Alamat</label>
+               <div class="col-sm-10">
+                 <input type="text" class="form-control" id="inputAlamat" name="inputAlamat">
+               </div>
+             </div>
+
+             <fieldset class="row mb-3">
+               <legend class="col-form-label col-sm-2 pt-0">Jenis Kelamin</legend>
+               <div class="col-sm-10">
+                 <div class="form-check">
+                   <input class="form-check-input" type="radio" name="jenisKelamin" id="gridRadios1" value="option1" checked>
+                   <label class="form-check-label" for="gridRadios1">
+                     Pria
+                   </label>
+                 </div>
+                 <div class="form-check">
+                   <input class="form-check-input" type="radio" name="jenisKelamin" id="gridRadios2" value="option2">
+                   <label class="form-check-label" for="gridRadios2">
+                     Wanita
+                   </label>
+                 </div>
+             </fieldset>
+
+             <fieldset class="row mb-3">
+               <legend class="col-form-label col-sm-2 pt-0">Jabatan</legend>
+               <div class="col-sm-10">
+                 <!-- label class="visually-hidden" for="specificSizeSelect">Bagian</label -->
+                 <select class="form-select" id="specificSizeSelect" name="inputJabatan">
+                   <option selected>Pilih Jabatan </option>
+                   <option value="1">Staff Produksi</option>
+                   <option value="2">Staff Marketing</option>
+                   <option value="3">Staff Administrasi</option>
+                   <option value="3">Supervisor</option>
+                   
+                 </select>
+             </fieldset>
+             
+             
+
+             <fieldset class="row mb-3">
+               <legend class="col-form-label col-sm-2 pt-0">Status</legend>
+               <div class="col-sm-10">
+                 <!-- label class="visually-hidden" for="specificSizeSelect">Bagian</label -->
+                 <select class="form-select" id="specificSizeSelect" name="inputStatus">
+                   <option selected>Status </option>
+                   <option value="1">Menikah</option>
+                   <option value="2">Belum Menikah</option>
+                   
+                 </select>
+             </fieldset>
+              
+             <div class="row mb-3">
+               <label for="inputJumlahAnak" class="col-sm-2 col-form-label">Jumlah Anak</label>
+               <div class="col-sm-10">
+                 <input type="text" class="form-control" id="inputJumlahAnak" name="inputJumlahAnak">
+               </div>
+             </div>
+               
+          
+             <br>
+             <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+           </form>
+        </div>
+    </div>
+
+          
+      
+  
+  </body>
+  <!-- script src="bootstrap513/js/bootstrap.bundle.js" type="text/javascript"></script -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+
+</html>
